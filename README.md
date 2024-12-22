@@ -26,7 +26,7 @@ To save you time, and also in case you lose some files while copying, we extract
 latest version of the **Chirpy** theme and the [CD][CD] workflow to here, so that you can start writing in minutes.
 
 ## Usage
-
+To run the site locally, use the following command: `$ bundle exec jekyll s`
 Check out the [theme's docs](https://github.com/cotes2020/jekyll-theme-chirpy/wiki).
 
 ## Contributing
