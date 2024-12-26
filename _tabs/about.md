@@ -4,7 +4,7 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-> 欢迎来到我的个人博客！我是weng，一个热爱学习和分享的程序员。这里主要记录我在学习过程中的一些笔记
+> 欢迎来到我的个人博客！我是weng，一个热爱学习和分享的boy。Here is my notes.
 {: .prompt-tip }
 
 ### 为什么建这个博客？
