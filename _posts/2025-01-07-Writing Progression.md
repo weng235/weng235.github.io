@@ -17,7 +17,6 @@ tags: [English]
 | 老年人 | the old / the elderly / seniors / the aged |
 | 员工 | workers / employees / staff |
 | 对手 | rival / competitor / opponent |
-{: .mt-0 }
 
 ### 特征类
 
@@ -26,7 +25,6 @@ tags: [English]
 | 特点 | trait / feature / characteristic / quality |
 | 结果 | outcome / result / consequence |
 | 标准 | standard / criteria |
-{: .mt-0 }
 
 ### 形容词
 
@@ -35,7 +33,6 @@ tags: [English]
 | 大量的 | a lot of / plenty of / abundant / enormous |
 | 可行的 | practical / feasible / workable / usable |
 | 重要的 | important / significant / essential / crucial / critical |
-{: .mt-0 }
 
 ### 动词
 
@@ -49,7 +46,6 @@ tags: [English]
 | 改变/转变 | change / shift / alter / transform / convert |
 | 重视/强调 | highlight / underline / pay attention to |
 | 忽视/轻视 | ignore / neglect / underestimate |
-{: .mt-0 }
 
 ## 2. 常用词优化表 ✨
 
@@ -66,7 +62,6 @@ tags: [English]
 | bad | dreadful / inferior |
 | important | significant / crucial |
 | make sb do sth. | enable sb to do sth |
-{: .mt-0 }
 
 ## 3. 过渡词进阶 🔄
 
