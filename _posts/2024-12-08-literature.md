@@ -2,7 +2,7 @@
 title: 网文
 description: 截至2024年底已阅读网文
 date: 2024-12-08 12:00:00 +0800
-categories: [root,阅读]
+categories: [阅读]
 tags: [read]
 published: false
 ---

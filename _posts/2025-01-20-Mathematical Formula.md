@@ -2,7 +2,7 @@
 title: 高等数学常用公式
 description: 渐近线、微分方程、等价无穷小、麦克劳林展开的公式大全
 date: 2025-01-20 8:00:00 +0800
-categories: [root,数学]
+categories: [数学]
 tags: [math]
 math: true
 ---

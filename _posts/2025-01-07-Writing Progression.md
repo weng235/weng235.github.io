@@ -2,7 +2,7 @@
 title: 英语写作进阶指南 📚
 description: 本指南收集整理了英语写作中常用的同义词、优化表达和高级句型，帮助提升写作水平
 date: 2025-01-07 9:00:00 +0800
-categories: [root,学习]
+categories: [英语,作文]
 tags: [English]
 ---
 

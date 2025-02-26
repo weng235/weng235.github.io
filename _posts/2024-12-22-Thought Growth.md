@@ -2,7 +2,7 @@
 title: 思想成长
 description: 改变自己，最快的方式是什么？
 date: 2024-12-22 8:00:00 +0800
-categories: [root,提升]
+categories: [提升]
 tags: [growth]
 ---
 

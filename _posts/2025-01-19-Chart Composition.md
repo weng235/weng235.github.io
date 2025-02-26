@@ -2,7 +2,7 @@
 title: 图表作文
 description: 图表作文的写作技巧，包括描述方法、数据表达和常用句型等
 date: 2025-01-19 12:00:00 +0800
-categories: [root,学习]
+categories: [英语,作文]
 tags: [English]
 ---
 
