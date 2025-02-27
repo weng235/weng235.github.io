@@ -6,5 +6,6 @@ tags: [math]
 ---
 
 ### 文亮PDF
+<a href="/assets/files/专升本数学公式及知识点.pdf" target="_blank">点击这里全屏查看 PDF</a>
  
-<iframe src="/assets/files/专升本数学公式及知识点.pdf" width="100%" height="600px"></iframe>
+<embed src="/assets/files/专升本数学公式及知识点.pdf" type="application/pdf" width="100%" height="600px" />
