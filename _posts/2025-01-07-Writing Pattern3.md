@@ -3,7 +3,7 @@ title: 写作句型（三）
 description: 《essay commenting on curiosity》提取出的功能句
 date: 2025-01-07 8:00:00 +0800
 categories: [英语,作文]
-tags: [English]
+tags: [english, writing]
 ---
 
 > **注：**标红的是可替换的词组

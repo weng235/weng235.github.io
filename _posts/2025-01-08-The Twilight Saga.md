@@ -3,7 +3,7 @@ title: 暮光之城词汇集 📚
 description: 收录《暮光之城》系列中的重要英语单词及经典台词
 date: 2025-01-08 8:00:00 +0800
 categories: [英语,词汇集]
-tags: [English]
+tags: [english, vocabulary, movie]
 toc: false
 ---
 

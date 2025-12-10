@@ -3,7 +3,7 @@ title: 虚拟语气
 description: 虚拟语气的9种常见用法以及例句
 date: 2024-12-12 12:00:00 +0800
 categories: [英语,语法]
-tags: [English]
+tags: [english, grammar]
 ---
 
 ### 1. **条件句中的虚拟语气**

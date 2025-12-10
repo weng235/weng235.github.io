@@ -3,7 +3,7 @@ title: Cloudflare(一)
 description: Cloudflare绑定域名和托管以及DNS记录的使用
 date: 2025-06-05 9:00:00 +0800
 categories: [技术,Cloudflare]
-tags: [Technology]
+tags: [technology, cloudflare, dns, tutorial]
 ---
 
 ## 🚀 完成绑定和托管

@@ -3,7 +3,7 @@ title: 写作句型
 description: 写作中常用的各种方法以及对应的句型
 date: 2024-12-18 12:00:00 +0800
 categories: [英语,作文]
-tags: [English]
+tags: [english, writing]
 ---
 
 ## 引言

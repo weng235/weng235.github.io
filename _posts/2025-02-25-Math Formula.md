@@ -1,8 +1,9 @@
 ---
-title: 专升本数学公式及知识点 
+title: 专升本数学公式及知识点
+description: 专升本考试数学公式及知识点汇总PDF文档
 date: 2025-02-25 8:00:00 +0800
-categories: [数学]
-tags: [math] 
+categories: [数学,专升本]
+tags: [math, formula]
 ---
 
 ### 文亮PDF

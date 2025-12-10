@@ -1,8 +1,9 @@
 ---
 title: 倒装结构
+description: 英语倒装结构的完全倒装和部分倒装用法详解
 date: 2024-12-12 12:00:00 +0800
 categories: [英语,语法]
-tags: [English]
+tags: [english, grammar]
 ---
 
 ### 1. **完全倒装**

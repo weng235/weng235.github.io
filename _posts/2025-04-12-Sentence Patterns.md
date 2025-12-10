@@ -3,7 +3,7 @@ title: 英语作文常用句式
 description: 作文句式模版以及常见谚语
 date: 2025-04-12 9:00:00 +0800
 categories: [英语,作文]
-tags: [English]
+tags: [english, writing]
 ---
 
 

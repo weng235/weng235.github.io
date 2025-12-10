@@ -2,8 +2,8 @@
 title: 思想成长
 description: 改变自己，最快的方式是什么？
 date: 2024-12-22 8:00:00 +0800
-categories: [提升]
-tags: [growth]
+categories: [个人成长,思想]
+tags: [growth, self-improvement]
 ---
 
 ###  早起+密集做事

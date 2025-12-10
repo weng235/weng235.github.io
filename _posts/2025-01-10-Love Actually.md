@@ -3,7 +3,7 @@ title: 真爱至上词汇集 📚
 description: 收录《真爱至上》系列中的重要英语单词及经典台词
 date: 2025-01-10 8:00:00 +0800
 categories: [英语,词汇集]
-tags: [English]
+tags: [english, vocabulary, movie]
 toc: false
 ---
 

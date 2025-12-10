@@ -1,9 +1,9 @@
 ---
 title: 主题式作文
 description: 主题式作文的结构以及万用论据模版
-date: 2024-12-22 8:00:00 +0800
+date: 2024-12-26 8:00:00 +0800
 categories: [英语,作文]
-tags: [English]
+tags: [english, writing]
 ---
 
 ## 作文结构
