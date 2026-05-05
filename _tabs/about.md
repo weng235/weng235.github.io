@@ -4,15 +4,20 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-> 欢迎来到我的个人博客！我是weng，一个热爱学习和分享的boy。Here is my notes.
+> 欢迎来到我的个人博客！我是 weng，一名全栈工程师，专注于 Java/Spring Boot 后端开发与 Vue 前端开发，同时也会使用 Python 进行脚本开发和数据处理。
 {: .prompt-tip }
 
-### 为什么建这个博客？
+### 技术栈
 
-- 记录学习过程，方便自己回顾
-- 分享知识，帮助他人
-- 通过写作提升自己的表达能力
-- 结识志同道合的朋友
+**后端**：Java / Spring Boot / MyBatis / MySQL
+**前端**：Vue / JavaScript / HTML / CSS
+**其他**：Python / Git / Docker / Linux
+
+### 博客内容
+
+- **技术笔记**：日常开发中积累的技术知识和实践经验
+- **项目复盘**：完整项目的开发过程、技术选型与踩坑记录
+- **学习记录**：英语学习、读书笔记等个人成长内容
 
 ### 联系方式
 
