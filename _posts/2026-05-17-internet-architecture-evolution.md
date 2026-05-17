@@ -10,7 +10,7 @@ mermaid: true
 ## 架构演进全景图
 
 ```mermaid
-%%{init: {'theme': 'base', 'themeVariables': { 'fontSize': '16px' }}%%
+%%{init: {'theme': 'dark', 'themeVariables': { 'fontSize': '14px', 'nodeBorder': '#555', 'lineColor': '#aaa' }}%%
 graph LR
     A["单机架构"] --> B["应用与数据库拆分"]
     B --> C["应用集群 + 负载均衡"]
@@ -25,19 +25,19 @@ graph LR
     K --> L["K8s 编排"]
     L --> M["云原生架构"]
 
-    style A fill:#4CAF50,color:#fff
-    style B fill:#66BB6A,color:#fff
-    style C fill:#2196F3,color:#fff
-    style D fill:#42A5F5,color:#fff
-    style E fill:#00BCD4,color:#fff
-    style F fill:#FF9800,color:#fff
-    style G fill:#FF5722,color:#fff
-    style H fill:#9C27B0,color:#fff
-    style I fill:#673AB7,color:#fff
-    style J fill:#F44336,color:#fff
-    style K fill:#E91E63,color:#fff
-    style L fill:#3F51B5,color:#fff
-    style M fill:#795548,color:#fff
+    style A fill:#4CAF50,stroke:#2E7D32,color:#fff,fontWeight:bold
+    style B fill:#66BB6A,stroke:#388E3C,color:#fff,fontWeight:bold
+    style C fill:#42A5F5,stroke:#1976D2,color:#fff,fontWeight:bold
+    style D fill:#26C6DA,stroke:#00838F,color:#fff,fontWeight:bold
+    style E fill:#78909C,stroke:#455A64,color:#fff,fontWeight:bold
+    style F fill:#FFA726,stroke:#F57C00,color:#fff,fontWeight:bold
+    style G fill:#FF7043,stroke:#D84315,color:#fff,fontWeight:bold
+    style H fill:#AB47BC,stroke:#7B1FA2,color:#fff,fontWeight:bold
+    style I fill:#7E57C2,stroke:#512DA8,color:#fff,fontWeight:bold
+    style J fill:#EF5350,stroke:#C62828,color:#fff,fontWeight:bold
+    style K fill:#EC407A,stroke:#AD1457,color:#fff,fontWeight:bold
+    style L fill:#5C6BC0,stroke:#303F9F,color:#fff,fontWeight:bold
+    style M fill:#8D6E63,stroke:#4E342E,color:#fff,fontWeight:bold
 ```
 
 ---
@@ -299,20 +299,23 @@ graph TB
 
 ```mermaid
 graph LR
-    subgraph Docker 镜像
+    subgraph Docker镜像
         Code[代码]
         Deps[依赖库]
         Runtime[运行环境]
     end
 
-    Docker 镜像 --> Dev[开发环境]
-    Docker 镜像 --> Test[测试环境]
-    Docker 镜像 --> Prod[生产环境]
+    Docker镜像 --> Dev[开发环境]
+    Docker镜像 --> Test[测试环境]
+    Docker镜像 --> Prod[生产环境]
 
-    style Docker 镜像 fill:#E3F2FD,stroke:#2196F3
-    style Dev fill:#66BB6A,color:#fff
-    style Test fill:#FF9800,color:#fff
-    style Prod fill:#F44336,color:#fff
+    style Docker镜像 fill:#7986CB,stroke:#303F9F,color:#fff
+    style Code fill:#90CAF9,stroke:#1976D2,color:#333
+    style Deps fill:#90CAF9,stroke:#1976D2,color:#333
+    style Runtime fill:#90CAF9,stroke:#1976D2,color:#333
+    style Dev fill:#66BB6A,stroke:#388E3C,color:#fff
+    style Test fill:#FFA726,stroke:#F57C00,color:#fff
+    style Prod fill:#EF5350,stroke:#C62828,color:#fff
 ```
 
 ### 2. K8s 编排
