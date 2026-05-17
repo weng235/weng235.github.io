@@ -9,27 +9,7 @@ mermaid: true
 
 ## 架构演进全景图
 
-```mermaid
-graph LR
-    A[单机架构] --> B[应用与数据库拆分]
-    B --> C[应用集群 + 负载均衡]
-    C --> D[多级缓存]
-    D --> E[读写分离]
-    E --> F[分库分表]
-    F --> G[CDN + 反向代理]
-    G --> H[分布式架构]
-    H --> I[消息队列]
-    I --> J[微服务架构]
-    J --> K[Docker 容器]
-    K --> L[K8s 编排]
-    L --> M[云原生架构]
-
-    style A fill:#4CAF50,color:#fff
-    style C fill:#2196F3,color:#fff
-    style F fill:#FF9800,color:#fff
-    style J fill:#9C27B0,color:#fff
-    style M fill:#F44336,color:#fff
-```
+![架构演进全景图](/assets/imgs/20260517/architecture-evolution.png){: width="900" }
 
 ---
 
@@ -244,6 +224,8 @@ graph LR
 ### 3. 微服务架构
 
 进一步细拆功能为独立小服务，单一服务只做一件事，可独立开发、上线、扩容，适配不同技术栈，节省资源、降低故障影响范围；配套全链路追踪、限流熔断降级、服务治理，支撑千万甚至亿级流量。
+
+![微服务架构流程图](/assets/imgs/20260517/microservices-flow.png){: width="900" }
 
 ```mermaid
 graph TB
