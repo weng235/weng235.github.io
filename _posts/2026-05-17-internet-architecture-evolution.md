@@ -10,53 +10,47 @@ mermaid: true
 ## 架构演进全景图
 
 ```mermaid
-%%{init: {'theme': 'dark', 'themeVariables': { 'fontSize': '18px', 'nodeBorder': '#666', 'lineColor': '#888', 'clusterBkg': '#1a1a2e' }}%%
-graph TB
+%%{init: {'theme': 'dark', 'themeVariables': { 'fontSize': '14px', 'nodeBorder': '#666', 'lineColor': '#888', 'clusterBkg': 'transparent' }}%%
+graph LR
     subgraph 初期阶段
-        A["单机架构"]
-        B["应用与数据库拆分"]
-        C["应用集群 + 负载均衡"]
+        A["单机架构"] --> B["应用与数据库拆分"] --> C["应用集群 + 负载均衡"]
     end
 
     subgraph 数据库优化阶段
-        D["多级缓存"]
-        E["读写分离"]
-        F["分库分表"]
+        D["多级缓存"] --> E["读写分离"] --> F["分库分表"]
     end
 
     subgraph 安全与检索阶段
-        G["CDN + 反向代理"]
-        H["搜索引擎 + 非关系型数据库"]
+        G["CDN + 反向代理"] --> H["搜索引擎 + 非关系型数据库"]
     end
 
     subgraph 微服务阶段
-        I["分布式架构"]
-        J["消息队列"]
-        K["微服务架构"]
+        I["分布式架构"] --> J["消息队列"] --> K["微服务架构"]
     end
 
     subgraph 云原生阶段
-        L["Docker 容器"]
-        M["K8s 编排"]
-        N["云原生架构"]
+        L["Docker 容器"] --> M["K8s 编排"] --> N["云原生架构"]
     end
 
-    A --> B --> C --> D --> E --> F --> G --> H --> I --> J --> K --> L --> M --> N
+    C --> D
+    F --> G
+    H --> I
+    K --> L
 
-    style A fill:#4CAF50,stroke:#2E7D32,color:#fff,fontWeight:bold
-    style B fill:#66BB6A,stroke:#388E3C,color:#fff,fontWeight:bold
-    style C fill:#42A5F5,stroke:#1976D2,color:#fff,fontWeight:bold
-    style D fill:#26C6DA,stroke:#00838F,color:#fff,fontWeight:bold
-    style E fill:#78909C,stroke:#455A64,color:#fff,fontWeight:bold
-    style F fill:#FFA726,stroke:#F57C00,color:#fff,fontWeight:bold
-    style G fill:#FF7043,stroke:#D84315,color:#fff,fontWeight:bold
-    style H fill:#AB47BC,stroke:#7B1FA2,color:#fff,fontWeight:bold
-    style I fill:#7E57C2,stroke:#512DA8,color:#fff,fontWeight:bold
-    style J fill:#EF5350,stroke:#C62828,color:#fff,fontWeight:bold
-    style K fill:#EC407A,stroke:#AD1457,color:#fff,fontWeight:bold
-    style L fill:#5C6BC0,stroke:#303F9F,color:#fff,fontWeight:bold
-    style M fill:#26A69A,stroke:#00695C,color:#fff,fontWeight:bold
-    style N fill:#8D6E63,stroke:#4E342E,color:#fff,fontWeight:bold
+    style A fill:#4CAF50,stroke:#2E7D32,color:#fff
+    style B fill:#66BB6A,stroke:#388E3C,color:#fff
+    style C fill:#42A5F5,stroke:#1976D2,color:#fff
+    style D fill:#26C6DA,stroke:#00838F,color:#fff
+    style E fill:#78909C,stroke:#455A64,color:#fff
+    style F fill:#FFA726,stroke:#F57C00,color:#fff
+    style G fill:#FF7043,stroke:#D84315,color:#fff
+    style H fill:#AB47BC,stroke:#7B1FA2,color:#fff
+    style I fill:#7E57C2,stroke:#512DA8,color:#fff
+    style J fill:#EF5350,stroke:#C62828,color:#fff
+    style K fill:#EC407A,stroke:#AD1457,color:#fff
+    style L fill:#5C6BC0,stroke:#303F9F,color:#fff
+    style M fill:#26A69A,stroke:#00695C,color:#fff
+    style N fill:#8D6E63,stroke:#4E342E,color:#fff
 ```
 
 ---
