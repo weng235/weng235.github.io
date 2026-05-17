@@ -10,20 +10,38 @@ mermaid: true
 ## 架构演进全景图
 
 ```mermaid
-%%{init: {'theme': 'dark', 'themeVariables': { 'fontSize': '14px', 'nodeBorder': '#555', 'lineColor': '#aaa' }}%%
-graph LR
-    A["单机架构"] --> B["应用与数据库拆分"]
-    B --> C["应用集群 + 负载均衡"]
-    C --> D["多级缓存"]
-    D --> E["读写分离"]
-    E --> F["分库分表"]
-    F --> G["CDN + 反向代理"]
-    G --> H["分布式架构"]
-    H --> I["消息队列"]
-    I --> J["微服务架构"]
-    J --> K["Docker 容器"]
-    K --> L["K8s 编排"]
-    L --> M["云原生架构"]
+%%{init: {'theme': 'dark', 'themeVariables': { 'fontSize': '18px', 'nodeBorder': '#666', 'lineColor': '#888', 'clusterBkg': '#1a1a2e' }}%%
+graph TB
+    subgraph 初期阶段
+        A["单机架构"]
+        B["应用与数据库拆分"]
+        C["应用集群 + 负载均衡"]
+    end
+
+    subgraph 数据库优化阶段
+        D["多级缓存"]
+        E["读写分离"]
+        F["分库分表"]
+    end
+
+    subgraph 安全与检索阶段
+        G["CDN + 反向代理"]
+        H["搜索引擎 + 非关系型数据库"]
+    end
+
+    subgraph 微服务阶段
+        I["分布式架构"]
+        J["消息队列"]
+        K["微服务架构"]
+    end
+
+    subgraph 云原生阶段
+        L["Docker 容器"]
+        M["K8s 编排"]
+        N["云原生架构"]
+    end
+
+    A --> B --> C --> D --> E --> F --> G --> H --> I --> J --> K --> L --> M --> N
 
     style A fill:#4CAF50,stroke:#2E7D32,color:#fff,fontWeight:bold
     style B fill:#66BB6A,stroke:#388E3C,color:#fff,fontWeight:bold
@@ -37,7 +55,8 @@ graph LR
     style J fill:#EF5350,stroke:#C62828,color:#fff,fontWeight:bold
     style K fill:#EC407A,stroke:#AD1457,color:#fff,fontWeight:bold
     style L fill:#5C6BC0,stroke:#303F9F,color:#fff,fontWeight:bold
-    style M fill:#8D6E63,stroke:#4E342E,color:#fff,fontWeight:bold
+    style M fill:#26A69A,stroke:#00695C,color:#fff,fontWeight:bold
+    style N fill:#8D6E63,stroke:#4E342E,color:#fff,fontWeight:bold
 ```
 
 ---
